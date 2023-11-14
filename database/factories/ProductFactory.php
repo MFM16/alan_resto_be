@@ -16,9 +16,9 @@ class ProductFactory extends Factory
     public function definition(): array
     {
         return [
-            'product_name' => 'Product Name',
-            'product_price' => 20000,
-            'product_photo' => 'https://source.unsplash.com/random/?city,night'
+            'product_name' => 'Product Name 2',
+            'product_price' => 25000,
+            'product_photo' => 'https://source.unsplash.com/random/?city'
         ];
     }
 }
